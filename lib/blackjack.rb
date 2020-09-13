@@ -51,7 +51,7 @@ def hit?(sum)
   get_user_input
   
   if 's'
-    return 
+    sum
   elsif 'h'
     
   else
