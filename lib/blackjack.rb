@@ -47,7 +47,7 @@ def hit?(sum, invalid_command)
   puts get_user_input
   
   if 's'
-    nil
+    end
   elsif 'h'
     deal_card
   else
@@ -72,5 +72,12 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  hit?
+  if hit?
+    initial_round
+  else
+    
 end
     
