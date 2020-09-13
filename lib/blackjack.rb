@@ -37,10 +37,11 @@ def initial_round
   p deal_card
   
   sum = deal_card + deal_card
+  card_total = sum
   
-  p display_card_total(sum)
+  p display_card_total(card_total)
   
-  return sum
+  return card_total
   
 end
 
