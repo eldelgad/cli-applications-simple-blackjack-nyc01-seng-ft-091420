@@ -50,7 +50,7 @@ def hit?(sum)
   if 's'
     sum
   elsif 'h'
-    card_total += sum
+    card_total += deal_card
   else
     invalid_command
     prompt_user
