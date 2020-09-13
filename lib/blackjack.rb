@@ -34,15 +34,15 @@ def initial_round
   p deal_card
   p deal_card
   
-  sum = deal_card + deal_card
+  current_card_total = deal_card + deal_card
   
   p display_card_total(sum)
   
-  return sum
+  return current_card_total
   
 end
 
-def hit?(sum, invalid_command)
+def hit?(current_card_total)
   # code hit? here
   
   prompt_user
