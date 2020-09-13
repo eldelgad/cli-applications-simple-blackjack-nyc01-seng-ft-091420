@@ -47,7 +47,7 @@ def hit?(sum, invalid_command)
   puts get_user_input
   
   if 's'
-    end
+    nil
   elsif 'h'
     deal_card
   else
