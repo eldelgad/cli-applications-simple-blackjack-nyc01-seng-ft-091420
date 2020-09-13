@@ -55,7 +55,7 @@ def hit?(card_total)
     invalid_command
     hit?(card_total)
   end
-  binding.pry
+  # binding.pry
     
 end
 
