@@ -72,13 +72,13 @@ end
 #####################################################
 
 def runner
-  # code runner here
-  # welcome
-  # initial_round
-  # hit?
-  # if hit?
-  #   initial_round
-  # else
+  code runner here
+  welcome
+  initial_round
+  hit?
+  if hit?
+    initial_round
+  else
     
 end
     
