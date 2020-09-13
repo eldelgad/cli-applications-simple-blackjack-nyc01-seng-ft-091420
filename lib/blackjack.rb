@@ -46,10 +46,10 @@ def hit?(current_card_total)
   puts prompt_user
   puts get_user_input
   
-  if 'h'
-    deal_card
-  elsif 's'
+  if 's'
     nil
+  elsif 'h'
+    deal_card
   else
     puts invalid_command
   end
