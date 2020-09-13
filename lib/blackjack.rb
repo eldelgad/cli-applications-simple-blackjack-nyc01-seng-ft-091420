@@ -53,6 +53,8 @@ def hit?(current_card_total)
   else
     invalid_command
   end
+  
+  return sum
     
     
 end
