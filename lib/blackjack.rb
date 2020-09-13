@@ -56,6 +56,8 @@ def hit?(sum)
     deal_card + sum
   else
     invalid_command
+    prompt_user
+    get_user_input
   end
   # binding.pry
     
@@ -64,8 +66,6 @@ end
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
-  puts prompt_user
-    puts get_user_input
 end
 
 #####################################################
