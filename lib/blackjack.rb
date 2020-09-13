@@ -55,7 +55,7 @@ def hit?(sum)
   elsif 'h'
     deal_card
     
-    return deal_card + sum
+    return card_total + deal_card
   else
     puts invalid_command
     puts prompt_user
