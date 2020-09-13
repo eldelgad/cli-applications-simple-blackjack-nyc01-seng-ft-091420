@@ -33,8 +33,8 @@ end
 def initial_round
   # code #initial_round here
   
-  p deal_card
-  p deal_card
+  deal_card
+  deal_card
   
   sum = deal_card + deal_card
   
