@@ -43,8 +43,8 @@ end
 
 def hit?(sum, invalid_command)
   # code hit? here
-  return prompt_user
-  return get_user_input
+  prompt_user
+  get_user_input
   
   if 's'
     nil
