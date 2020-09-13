@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -51,7 +53,8 @@ def hit?(sum)
   if 's'
     nil
   elsif 'h'
-    return deal_card + sum
+    deal_card
+    binding.pry
   else
     puts invalid_command
     puts prompt_user
