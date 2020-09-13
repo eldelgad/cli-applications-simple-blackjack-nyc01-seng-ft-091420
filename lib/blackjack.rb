@@ -55,7 +55,7 @@ def hit?(sum)
   elsif 'h'
     deal_card + sum
   else
-    puts invalid_command
+    invalid_command
   end
   # binding.pry
     
