@@ -54,12 +54,13 @@ def hit?(sum)
     nil
   elsif 'h'
     deal_card
-    binding.pry
+    
   else
     puts invalid_command
     puts prompt_user
     puts get_user_input
   end
+  binding.pry
   
   return sum
     
