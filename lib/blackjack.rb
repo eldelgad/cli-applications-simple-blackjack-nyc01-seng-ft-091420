@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  puts (1..11).rand
+  puts 1..11.rand
 end
 
 def display_card_total (card_total)
