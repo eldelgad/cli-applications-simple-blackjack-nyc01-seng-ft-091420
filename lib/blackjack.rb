@@ -53,8 +53,7 @@ def hit?(sum)
   if 's'
     nil
   elsif 'h'
-    deal_card
-    
+    card_total += deal_card
   else
     puts invalid_command
     puts prompt_user
