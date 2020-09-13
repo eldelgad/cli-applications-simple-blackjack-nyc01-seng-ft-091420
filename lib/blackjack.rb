@@ -30,6 +30,7 @@ end
 
 def initial_round
   # code #initial_round here
+  
   p deal_card
   p deal_card
   
@@ -43,7 +44,9 @@ end
 
 def hit?(sum, invalid_command)
   # code hit? here
-  puts prompt_user(get_user_input)
+  
+  prompt_user
+  get_user_input
   
   if 's'
     nil
