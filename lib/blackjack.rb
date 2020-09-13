@@ -41,7 +41,7 @@ def initial_round
   
 end
 
-def hit?(sum)
+def hit?(card_total)
   # code hit? here
   
   prompt_user
@@ -50,7 +50,7 @@ def hit?(sum)
   if 's'
     sum
   elsif 'h'
-    sum += deal_card
+    card_total += deal_card
   else
     invalid_command
     prompt_user
