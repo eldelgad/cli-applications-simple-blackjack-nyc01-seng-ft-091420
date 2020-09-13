@@ -51,7 +51,7 @@ def hit?(sum)
   get_user_input
   
   if 's'
-    nil
+    return sum
   elsif 'h'
     sum += deal_card
   else
@@ -60,7 +60,6 @@ def hit?(sum)
     puts get_user_input
   end
   # binding.pry
-  return sum
     
 end
 
