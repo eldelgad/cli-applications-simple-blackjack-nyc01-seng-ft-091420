@@ -58,10 +58,12 @@ def hit?(sum)
     puts invalid_command
     puts prompt_user
     puts get_user_input
+    
+    return sum
   end
   # binding.pry
   
-  return sum
+  
     
     
 end
