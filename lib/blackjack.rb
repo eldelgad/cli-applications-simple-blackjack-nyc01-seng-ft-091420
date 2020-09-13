@@ -52,7 +52,7 @@ def hit?(card_total)
   until correct_inputs.include?(user_input)
     invalid_command
     prompt_user
-    user_input
+    user_input = get_user_input
   end
 
   if user_input == "h"
