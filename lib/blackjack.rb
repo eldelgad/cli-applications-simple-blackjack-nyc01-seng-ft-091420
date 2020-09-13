@@ -82,7 +82,5 @@ def runner
     initial_round 
   end
   
-  
-    
 end
     
