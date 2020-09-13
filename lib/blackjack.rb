@@ -51,7 +51,7 @@ def hit?(current_card_total)
   elsif 's'
     nil
   else
-    invalid_command
+    puts invalid_command
   end
   
   return sum
