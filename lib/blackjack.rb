@@ -37,11 +37,10 @@ def initial_round
   p deal_card
   
   sum = deal_card + deal_card
-  card_total = sum
   
-  p display_card_total(card_total)
+  p display_card_total(sum)
   
-  return card_total
+  return sum
   
 end
 
@@ -52,7 +51,7 @@ def hit?(sum)
   get_user_input
   
   if 's'
-    card_total
+    return sum
   elsif 'h'
     
   else
