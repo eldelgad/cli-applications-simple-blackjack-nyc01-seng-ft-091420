@@ -62,7 +62,7 @@ def hit?(sum)
     puts get_user_input
   end
   # binding.pry
-  return sum + sum
+  return sum
     
 end
 
