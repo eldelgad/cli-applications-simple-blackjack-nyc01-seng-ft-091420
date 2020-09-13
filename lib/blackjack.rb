@@ -72,13 +72,17 @@ end
 #####################################################
 
 def runner
-  code runner here
+  # code runner here
   welcome
   initial_round
+  
   hit?
-  if hit?
-    initial_round
-  else
+  
+  until hit? == 21
+    initial_round 
+  end
+  
+  
     
 end
     
