@@ -52,7 +52,7 @@ def hit?(sum)
     nil
   elsif 'h'
      sum = sum + deal_card
-    return deal_card
+    return sum
   else
     puts invalid_command
     puts prompt_user
