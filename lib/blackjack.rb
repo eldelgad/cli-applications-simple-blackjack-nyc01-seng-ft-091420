@@ -44,18 +44,21 @@ end
 def hit?(card_total)
   # code hit? here
   
+  correct_inputs = ["h", "s"]
+
   prompt_user
-  get_user_input
-  
-  if get_user_input == "h"
-    card_total += deal_card
-  elsif get_user_input == "s"
-    card_total
-  else
+  user_input = get_user_input
+
+  until correct_inputs.include?(user_input)
     invalid_command
-    hit?(card_total)
+    prompt_user
+    user_input = get_user_input
   end
-  # binding.pry
+
+  if user_input == "h"
+    card_total += deal_card
+  end
+  card_total
     
 end
 
