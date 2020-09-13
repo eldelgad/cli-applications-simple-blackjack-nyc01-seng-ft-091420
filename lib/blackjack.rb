@@ -58,7 +58,7 @@ def hit?(sum)
     puts get_user_input
   end
   
-  return sum
+  return sum + deal_card
     
     
 end
